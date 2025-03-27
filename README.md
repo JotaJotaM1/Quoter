@@ -28,3 +28,6 @@ Web application for generating quotes for construction, repair and painting serv
 - React 18.2.0  
 - Modern CSS (modules)  
 - ES6+ JavaScript 
+
+## Deploy
+- link to see the displayed quote: [text](https://jotajotam1.github.io/Quoter/)
