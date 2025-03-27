@@ -5,38 +5,38 @@
     --primary-dark: #43a047;
     --secondary-color: #e74c3c;
     --secondary-dark: #c0392b;
-    
+
     /* Texto */
     --text-light: #333;
     --text-dark: #fff;
-    
+
     /* Fondos */
     --bg-light: #f9f9f9;
     --bg-dark: #1e1e1e;
     --input-bg-light: #fff;
     --input-bg-dark: #2a2a2a;
-    
+
     /* Bordes */
     --border-light: #ccc;
     --border-dark: #555;
-    
+
     /* Resultados */
     --result-bg-light: #e8f5e9;
     --result-border-light: #81c784;
     --result-bg-dark: #2e7d32;
     --result-border-dark: #1b5e20;
-    
+
     /* Errores */
     --error-color: #e74c3c;
     --error-bg: #fde8e8;
     --error-border: #f5c6cb;
     --error-dark-bg: #3d1a1a;
     --error-dark-border: #5c2c2c;
-    
+
     /* Sombras */
     --shadow-light: rgba(0, 0, 0, 0.1);
     --shadow-dark: rgba(255, 255, 255, 0.1);
-    
+
     /* Transiciones */
     --transition-time: 0.3s;
 }
@@ -73,8 +73,8 @@
     border: 1px solid var(--border-light);
     border-radius: 6px;
     box-sizing: border-box;
-    transition: border-color var(--transition-time) ease, 
-                box-shadow var(--transition-time) ease;
+    transition: border-color var(--transition-time) ease,
+        box-shadow var(--transition-time) ease;
 }
 
 .quote-form input:focus,
@@ -102,8 +102,8 @@
     border-radius: 8px;
     cursor: pointer;
     font-weight: 600;
-    transition: background-color var(--transition-time) ease, 
-                transform 0.2s ease;
+    transition: background-color var(--transition-time) ease,
+        transform 0.2s ease;
 }
 
 /* Hover calcular */
@@ -122,8 +122,8 @@
     border-radius: 8px;
     cursor: pointer;
     font-weight: 600;
-    transition: background-color var(--transition-time) ease, 
-                transform 0.2s ease;
+    transition: background-color var(--transition-time) ease,
+        transform 0.2s ease;
 }
 
 /* Hover limpiar */
@@ -170,6 +170,7 @@
         opacity: 0;
         transform: translateY(15px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -180,7 +181,7 @@
 section.dark .quote-form {
     color: var(--text-dark);
     background: var(--bg-dark);
-    box-shadow: 0 4px 10px var(--shadow-dark);
+    box-shadow: 0 4px 10px rgb(76 76 76);
 }
 
 section.dark .quote-form input,
@@ -211,8 +212,8 @@ section.dark .error-message {
     border-radius: 8px;
     cursor: pointer;
     font-weight: bold;
-    transition: background var(--transition-time) ease, 
-                color var(--transition-time) ease;
+    transition: background var(--transition-time) ease,
+        color var(--transition-time) ease;
 }
 
 /* Hover modo claro */
@@ -241,11 +242,11 @@ section.dark .toggle-mode:hover {
         max-width: 100%;
         border-radius: 15px;
     }
-    
+
     .form-buttons {
         flex-direction: column;
     }
-    
+
     .quote-form button,
     .reset-btn {
         width: 100%;
